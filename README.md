@@ -1,15 +1,13 @@
 # PDHT_webapp_066-Beta
---------------------------------
+
+
 ## PDHT EPORTFOLIO SIMPLE WEB APP
 ### DEMO FOR PEDAGOGICAL purposes
 ### (CC BY 4.0)
---------------------------------
 
 
 
---------------------------------
 ## AUTHOR
---------------------------------
 
 Eric Girouard  
 
@@ -17,9 +15,8 @@ ericg@johnabbott.qc.ca
 https://www.ericg.photography
 
 
---------------------------------
 ## INTRODUCTION
---------------------------------
+
 
 This simple demo web application was designed as a teaching tool for the eportfolio class at the department of Publication Design & Hypermedia Technology of John Abbott College in Sainte-Anne-de-Bellevue, Quebec, Canada.
 
@@ -53,9 +50,8 @@ D) Students will learn to develop interfaces for code that was written by others
 This permits students to concentrate on CSS-based design, all the while being exposed to the complex web site structures that are now common.
 
 
---------------------------------
 ## WARNING
---------------------------------
+
 This code was built for demonstration and pedagogical purposes. It has not been audited for security. Although it has successfully been used in production on at least one successful commercial site (that I am aware of), it remains a teaching tool.
 
 At very least if intending to go into production with this codebase, it would be advisable to move the includes folder outside of the public www folder and set permissions appropriately.
@@ -65,9 +61,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
 SOFTWARE.
 
 
---------------------------------
+
 ## CREDITS
---------------------------------
+
 
 This demo app is heavily based on the work of the HTML 5 Boilerplate.  
 
@@ -83,41 +79,36 @@ http://d2eeipcrcdle6.cloudfront.net/seo-cheat-sheet/SEOCheatSheet_2-2013.pdf
 
 
 
---------------------------------
-## TOOLS FOR TESTING AND APPROVAL
---------------------------------
 
-1. TWITTER VALIDATION TOOL
+## TOOLS FOR TESTING AND APPROVAL
+
+
+### TWITTER VALIDATION TOOL
 https://dev.twitter.com/docs/cards/validation/validator
 
 Before your cards show on Twitter, you must first have your domain approved. Fortunately, it's a super-easy process. After you implement your cards, simply enter your sample URL into the validation tool. After checking your markup, select the "Submit for Approval" button.
 
 
-2. FACEBOOK DEBUGGER
+### FACEBOOK DEBUGGER
 https://developers.facebook.com/tools/debug
 
 You don't need prior approval for your meta information to show on Facebook, but the debugging tool they offer gives you a wealth of information about all your tags and can also analyze your Twitter tags.
 
 
-3. GOOGLE STRUCTURED DATA TESTING TOOL
+### GOOGLE STRUCTURED DATA TESTING TOOL
 http://www.google.com/webmasters/tools/richsnippets
 
 Webmasters traditionally use the structured data testing tool to test authorship markup and preview how snippets will appear in search results, but you can also use see what other types of meta data Google is able to extract from each page.
 
 
-4. PINTEREST RICH PINS VALIDATOR
+### PINTEREST RICH PINS VALIDATOR
 http://developers.pinterest.com/rich_pins/validator/
 
 Like Twitter, Pinterest requires an approval process to enable Rich Pin functionality. Use the Rich Pin Validator tool to test your data markup and apply for approval at the same time.
 
 
 
-
-
-
---------------------------------
 ## IMAGES
---------------------------------
 
 Every social platform has different standards for sizing. Typically, it's easier to keep it simple and choose one image size that will work for all services.
 
