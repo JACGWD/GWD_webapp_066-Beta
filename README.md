@@ -1,6 +1,8 @@
 # PDHT_webapp_066-Beta
 --------------------------------
-## PDHT EPORTFOLIO SIMPLE WEB APP | DEMO FOR PEDAGOGICAL PURPOSES | (CC BY 4.0)
+## PDHT EPORTFOLIO SIMPLE WEB APP
+### DEMO FOR PEDAGOGICAL purposes
+### (CC BY 4.0)
 --------------------------------
 
 
@@ -12,7 +14,6 @@
 Eric Girouard  
 
 ericg@johnabbott.qc.ca  
-
 https://www.ericg.photography
 
 
