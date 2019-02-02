@@ -66,12 +66,12 @@ SOFTWARE.
 ## CREDITS
 --------------------------------
 
-This demo app is heavily based on the work of the HTML 5 Boilerplate.
+This demo app is heavily based on the work of the HTML 5 Boilerplate.  
 http://www.html5boilerplate.com
 
 
 Social SEO inspired by:
-http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013
+http://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013  
 http://d2eeipcrcdle6.cloudfront.net/seo-cheat-sheet/SEOCheatSheet_2-2013.pdf
 
 
