@@ -1,0 +1,93 @@
+This is version 0.66 Beta of the PDHT EPORTFOLIO SIMPLE WEB APP  | DEMO FOR PEDAGOGICAL PURPOSES | (CC BY 4.0)
+
+
+-----------------------------------
+CHANGE HISTORY
+-----------------------------------
+
+v0.66 Beta | March 6, 2015
+Changed 'dpi' units in media queries within style.css to 'dppx' units. Because in CSS 'dpi' means dots-per-CSS-inch, not dots-per-physical-inch, so does not correspond to the actual 'dpi' of a screen.
+Added pixel density 3 media queries for iPhone 6+ within style.css.
+Enabled absolute URLs for pagination. Added $CurrentServer function and variable.
+Added valid sizes attribute in srcset.
+Enabled better PHP error reporting.
+Moved email configuration from sendmail.php to config.php.
+Added sections and comments in config.php
+Added TRUE / FALSE switch to enable Normalize.css instead of simple-css-reset.css in config.php.
+
+
+v0.65 Beta | February 9, 2015
+Edited inc/header.php to remove hard coded w15_eportfolio folder name and replaced with $currentYearFolder variable.
+Added Retina media queries to new default.css.
+Added multiple theme support.
+
+
+v0.64 Beta | February 3, 2015
+Added customizeable class for thumbnails figure tag on an individual tag basis.
+
+
+v0.63 Beta | February 2, 2015
+Added if/else check to add extra classes to the figure tag: both thumbnail and highres.
+Added HeaderClass to <header>.
+Removed flash-portfolio-item.php (same as page.php).
+Moved comments to content pages instead of _documentation.
+Deleted commented php folder from _documentation.
+
+
+v0.62 Beta | January 30, 2015
+Added if/else check for pagination.
+Previous/Next links will not appear if the variable is set to NULL.
+
+
+v0.61 Beta | January 21, 2015
+Add hooks for classes for <body> and <main>.
+Set most variables to NULL.
+Updated documentation.
+
+
+v0.6 Beta | January 20, 2015
+Prepare for Beta release.
+Added pagination metatags and <div class="pagination"> on portfolio-item.php.
+Moved $OgURL and $OgSiteName variable definitions to config.php because they do not need to be set on a page per page basis.
+
+
+v0.5 | January 17, 2015
+Added Social + SEO compatibility for Schema.org, Facebook OpenGraph, Google Authorship and Twitter Cards.
+Reorganized _documentation folder.
+Added social sharing feature to default sidebar.
+Add if/then check for 'gallery' Twitter Card type for thumbnails.php that adds 4 meta name="twitter:image0" links when the card type is "gallery".
+Whitelisted eportfolio.pdht.ca for both 'gallery' and 'summary' Twitter Cards.
+
+
+v0.4 | January 15, 2015
+Added compatibility for Flash content to the page template.
+Added hooks to add custom content into the <head> or just above </body>.
+Added documentation for content pages.
+
+
+v0.32 | January 12, 2015
+Moved addslash / stripslash functionalities to templates instead of content pages.
+Renamed variables for easier reading and comprehension.
+Add commented template pages to _documentation.
+Added functionality to automatically add <aside> to custom sidebar.
+
+
+v0.31 | January 11, 2015
+Created _web_app/theme/template folder, moved templates, and edited associated file names and paths.
+Added if/else check for custom sidebar.
+
+
+v0.3 | January 10, 2015
+Added extensive comments to all code pages.
+Added license, version and read me files.
+Added if/else check for custom high-res image size.
+Application almost ready for distribution.
+
+
+v0.2 | December 17, 2014
+Added PHP foreach loop in thumbnails template with help from PDHT grads James Mann and Josh Abadi.
+
+
+v0.1 | December 16, 2014
+Ported previous HTML eportfolio code to web app.
+Tested all functions and pages for rendering.
